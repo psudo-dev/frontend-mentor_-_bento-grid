@@ -1,12 +1,12 @@
 ![Image](./preview.jpg)
 
-# Frontend Mentor - Clipboard Landing Page
+# Frontend Mentor - Bento Grid
 
-[![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-Clipboard%20Landing%20Page-2ec866?style=flat-square&logo=frontendmentor)](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9)
+[![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-Bento%20Grid-2ec866?style=flat-square&logo=frontendmentor)](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj)
 
 ## Table of Contents
 
-- [Frontend Mentor - Clipboard Landing Page](#frontend-mentor---clipboard-landing-page)
+- [Frontend Mentor - Bento Grid](#frontend-mentor---bento-grid)
 	- [Table of Contents](#table-of-contents)
 	- [Overview](#overview)
 		- [Live Demo](#live-demo)
@@ -35,7 +35,7 @@ The challenges are pretty straight forward, you have to replicate the page or el
 
 ### The Challenge
 
-- [Clipboard Landing Page](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9)
+- [Bento Grid](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj)
 
 Use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
