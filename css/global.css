@@ -76,7 +76,7 @@ body {
 	padding-inline: 1rem;
 	gap: 2rem;
 	grid-auto-rows: minmax(100px, auto);
-	max-width: 1200px;
+	max-width: 75rem;
 	margin-inline: auto;
 }
 
