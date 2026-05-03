@@ -1,16 +1,6 @@
-.container {
-	display: grid;
-	padding-top: 2rem;
-	padding-bottom: 2.5rem;
-	padding-inline: 1rem;
-	gap: 2rem;
-}
+/* Social Media 10x Faster with AI */
 
-.container section {
-	border-radius: 0.5rem;
-}
-
-.faster-social-media {
+.primary {
 	background: var(--purple-500);
 	color: white;
 	padding: 2.5rem 2.75rem;
@@ -20,54 +10,51 @@
 	gap: 1.5rem;
 }
 
-.faster-social-media h1 {
-	font-weight: 500;
-	font-size: 2.5rem;
-	line-height: 1;
+.primary__reviews-wrapper {
+	display: grid;
+	gap: 0.5rem;
 }
 
-.faster-social-media img {
-	padding-inline: 1.75rem;
-	margin-bottom: 0.5rem;
+.primary__reviews-img {
 	margin-inline: auto;
+	max-width: 200px;
+	width: 100%;
 }
 
-.faster-social-media span {
+.primary__reviews-text {
 	font-weight: 400;
 }
 
-.manage-multiple-accounts {
+/* Manage multiple accounts and platforms */
+
+.multiple-accounts {
 	background: var(--white);
-	display: grid;
-	align-content: center;
-	justify-items: center;
 	text-align: left;
 	gap: 1rem;
 	padding: 1rem;
-}
-
-.social-container {
 	display: flex;
-	gap: 0.75rem;
+	flex-direction: column;
+	justify-content: center;
 }
 
-.social-wrapper {
+.multiple-accounts__social-list {
+	display: flex;
+	gap: 0.5rem;
+	align-self: center;
+}
+
+.multiple-accounts__social-item {
 	display: grid;
-	grid-template-columns: 1fr auto;
-	padding: 0.6rem;
+	grid-template-columns: auto auto;
+	padding: 0.5rem;
 	border-radius: 100px;
 	gap: 0.5rem;
 	text-align: left;
-	box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.2);
+	box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.1);
+	flex-shrink: 0;
 }
 
-.social-wrapper svg {
-	fill: var(--purple-500);
-	height: 1.6rem;
-	width: 1.6rem;
-}
-
-.social-svg {
+.multiple-accounts__social-icon {
 	display: flex;
 	background: var(--yellow-500);
 	border-radius: 50%;
@@ -76,74 +63,74 @@
 	padding: 0.2rem;
 }
 
-.social-text {
+.multiple-accounts__social-icon--svg {
+	fill: var(--purple-500);
+	height: 1.6rem;
+	width: 1.6rem;
+}
+
+.multiple-accounts__social-info--wrapper {
 	display: grid;
 	align-content: center;
 	margin-right: 0.5rem;
 }
 
-.social-text p {
+.multiple-accounts__social-username {
 	font-size: 0.875rem;
 	font-weight: 500;
 }
 
-.social-text span {
+.multiple-accounts__social-followers {
 	font-size: 0.675rem;
 	color: var(--gray-500);
 }
 
-.social-main-text {
-	font-weight: 500;
-	font-size: 1.375rem;
-}
+/* Maintain a consistent posting schedule. */
 
-.consistent-schedule {
+.posting-schedule {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	gap: 0.75rem;
+	gap: 1.5rem;
 	background: var(--yellow-500);
 	padding: 1rem;
 	overflow: hidden;
 }
 
-.consistent-schedule h3 {
-	grid-column: 1 / -1;
-	font-weight: 500;
-	font-size: 1.375rem;
-}
-
-.consistent-schedule img {
-	grid-column: 1 / 3;
+.posting-schedule__img {
 	margin-bottom: -2rem;
 }
 
-.schedule-social-media {
+/* Schedule to social media. */
+
+.optimal-schedule {
 	background: var(--purple-100);
 	padding: 2rem 1rem;
-	display: grid;
+	display: flex;
 	gap: 1.5rem;
 	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-.schedule-social-media h3 {
-	font-weight: 500;
-	font-size: 1.375rem;
-}
+/* Grow followers with non-stop content.s */
 
 .grow-followers {
 	background: var(--purple-500);
-	padding: 1.5rem 3.5rem;
+	padding: 1.5rem 3rem;
 	display: grid;
 	gap: 2.5rem;
 	text-align: center;
+	align-content: center;
+	justify-items: center;
 }
 
-.grow-followers h2 {
-	color: var(--white);
-	font-weight: 400;
-	line-height: 1;
-	font-size: 1.75rem;
+.grow-followers__img {
+	max-width: 80%;
+	align-self: center;
 }
+
+/* faster audience growth */
 
 .audience-growth {
 	background: var(--white);
@@ -154,7 +141,7 @@
 	padding: 1rem;
 }
 
-.audience-growth h2 {
+.audience-growth__percentage {
 	grid-column: 1 / -1;
 	font-size: 3rem;
 	font-weight: 400;
@@ -164,18 +151,15 @@
 	margin-bottom: -0.5rem;
 }
 
-.audience-growth h2 span {
+.audience-growth__symbol {
 	padding-bottom: 0.5rem;
 }
 
-.audience-growth p {
+.audience-growth__text {
 	grid-column: 1 / -1;
-	font-weight: 400;
 }
 
-.audience-growth img {
-	grid-column: 1 / 3;
-}
+/* Create and schedule content quicker. */
 
 .create-content {
 	background: var(--yellow-100);
@@ -186,16 +170,7 @@
 	gap: 1.5rem;
 }
 
-.create-content h2 {
-	grid-column: 1 / -1;
-	font-weight: 500;
-	line-height: 1;
-	font-size: 1.675rem;
-}
-
-.create-content img {
-	grid-column: 1 / 3;
-}
+/* Write your content using AI. */
 
 .ai-content {
 	background: var(--yellow-500);
@@ -205,6 +180,153 @@
 	gap: 1rem;
 }
 
-.ai-content img {
-	grid-column: 1 / 3;
+@media (min-width: 28.125em) {
+	.posting-schedule {
+		padding: 1.5rem;
+	}
+
+	.audience-growth__percentage {
+		font-size: 4rem;
+	}
+
+	.multiple-accounts__social-icon {
+		padding: 0.5rem;
+	}
+
+	.multiple-accounts__social-list {
+		gap: 1rem;
+	}
+
+	.multiple-accounts__social-item {
+		padding: 0.75rem;
+	}
+
+	.optimal-schedule__img {
+		max-width: 80%;
+	}
+
+	.grow-followers__img {
+		max-width: 80%;
+	}
+}
+
+@media (min-width: 37.5em) {
+	.primary {
+		grid-column: span 2;
+		order: 0;
+	}
+
+	.multiple-accounts {
+		order: 1;
+		padding: 1.5rem;
+		overflow: hidden;
+	}
+
+	.multiple-accounts__social-list {
+		align-self: start;
+	}
+
+	.posting-schedule {
+		order: 2;
+	}
+
+	.posting-schedule__img {
+		grid-column: 1 / -1;
+		margin-bottom: -6rem;
+	}
+
+	.optimal-schedule {
+		text-align: left;
+		padding-inline: 2rem;
+		grid-row: span 2;
+		order: 4;
+		overflow: hidden;
+	}
+
+	.optimal-schedule__img {
+		max-height: 350px;
+		max-width: none;
+		margin-right: -10rem;
+		flex-shrink: 0;
+		flex-grow: 0;
+		align-self: flex-start;
+	}
+
+	.grow-followers {
+		grid-column: span 2;
+		grid-template-columns: 3fr 4fr;
+		gap: 1rem;
+		order: 3;
+		padding: 1.5rem;
+	}
+
+	.grow-followers__title {
+		grid-column: 2 / -1;
+		display: flex;
+		align-items: center;
+		text-align: left;
+		font-weight: 400;
+	}
+
+	.grow-followers__img {
+		max-width: 100%;
+	}
+
+	.audience-growth {
+		order: 4;
+	}
+
+	.create-content {
+		order: 4;
+	}
+
+	.ai-content {
+		order: 4;
+	}
+}
+
+@media (min-width: 62.5em) {
+	.create-content {
+		order: -1;
+		grid-row: span 3;
+		align-content: center;
+		padding-inline: 2rem;
+	}
+
+	.primary {
+		order: 0;
+		grid-row: span 2;
+		padding-block: 4rem;
+	}
+
+	.optimal-schedule {
+		order: 1;
+		grid-row: span 4;
+		justify-content: center;
+	}
+
+	.multiple-accounts {
+		order: 2;
+		grid-row: span 2;
+	}
+
+	.posting-schedule {
+		order: 3;
+		grid-row: span 2;
+	}
+
+	.ai-content {
+		order: 4;
+		grid-row: span 3;
+	}
+
+	.audience-growth {
+		order: 5;
+		grid-row: span 2;
+	}
+
+	.grow-followers {
+		order: 6;
+		grid-row: span 2;
+	}
 }
