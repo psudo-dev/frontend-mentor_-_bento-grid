@@ -41,7 +41,7 @@ ul {
 
 body {
 	font-family: "DM Sans", sans-serif;
-	font-size: var(--fs-18);
+	font-size: 1.125rem;
 	background: var(--gray-100);
 	font-weight: 400;
 }
@@ -87,20 +87,20 @@ body {
 	color: var(--white);
 }
 
-.primary__title {
+.title--big {
 	font-weight: 500;
 	font-size: 2.5rem;
 	line-height: 1;
 }
 
-.bento-card__title--medium {
+.title--medium {
 	grid-column: 1 / -1;
 	font-weight: 400;
 	line-height: 1;
 	font-size: 1.75rem;
 }
 
-.bento-card__title--small {
+.title--small {
 	grid-column: 1 / -1;
 	font-weight: 500;
 	font-size: 1.375rem;
@@ -113,10 +113,10 @@ body {
 }
 
 @media (min-width: 28.125em) {
-	.bento-card__title--medium {
+	.title--medium {
 		font-size: 2rem;
 	}
-	.bento-card__title--small {
+	.title--small {
 		font-size: 1.75rem;
 	}
 }
@@ -130,15 +130,15 @@ body {
 		grid-column: 1 / -1;
 	}
 
-	.primary__title {
+	.title--big {
 		font-size: 4rem;
 	}
 
-	.bento-card__title--medium {
+	.title--medium {
 		font-size: 2.5rem;
 	}
 
-	.bento-card__title--small {
+	.title--small {
 		font-size: 2rem;
 	}
 }
