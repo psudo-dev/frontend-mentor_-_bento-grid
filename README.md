@@ -2,26 +2,13 @@
 
 # Frontend Mentor - Bento Grid
 
-[![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-Bento%20Grid-2ec866?style=flat-square&logo=frontendmentor)](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj)
-
-## Table of Contents
-
-- [Frontend Mentor - Bento Grid](#frontend-mentor---bento-grid)
-	- [Table of Contents](#table-of-contents)
-	- [Overview](#overview)
-		- [Live Demo](#live-demo)
-	- [Frontend Mentor](#frontend-mentor)
-		- [The Challenge](#the-challenge)
-	- [Commentary](#commentary)
-		- [Accessibilty and Semantic HTML](#accessibilty-and-semantic-html)
-		- [BEM - Block Element Modifier](#bem---block-element-modifier)
-	- [Built Using](#built-using)
-	- [Author](#author)
-	- [License](#license)
+[![Frontend Mentor](https://img.shields.io/badge/Junior-Bento%20Grid-2ec866?style=flat-square&logo=frontendmentor)](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj)
 
 ## Overview
 
-I'm back to studying programming and I've started with the good old HTML and CSS. After finishing the course I'm tackling some [Frontend Mentor](https://www.frontendmentor.io) challenges to put into practice everything I've learned as I continue my studies. It's also a great way to keep improving - while not forgetting everything I've learned - as I continue to learn new things.
+[Frontend Mentor](https://www.frontendmentor.io) is a great platform to keep studying and practicing front-end development, letting you focus on the code itself without worrying about design or UI. It offers a wide variety of projects, from challenges that only require HTML and CSS to full-stack builds, spanning multiple difficulty levels from newbie to advanced.
+
+This makes it easy to test out whatever you're currently studying — whether that's accessibility, Tailwind, TypeScript, or even React and Next.js — and you can make projects as complete and complex as you like, simulating APIs or databases along the way. It's a great playground to sharpen your skills, adaptable to whatever you need at the time.
 
 ### Live Demo
 
@@ -45,7 +32,7 @@ Your users should be able to:
 
 Want some support on the challenge? [Join the Frontend Mentor community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
 
-## Commentary
+## Development Notes
 
 ### Accessibilty and Semantic HTML
 
