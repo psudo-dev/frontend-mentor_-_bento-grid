@@ -2,7 +2,7 @@
 
 # Frontend Mentor - Bento Grid
 
-[![Frontend Mentor](https://img.shields.io/badge/Junior-Bento%20Grid-2ec866?style=flat-square&logo=frontendmentor)](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj)
+[![Frontend Mentor](https://img.shields.io/badge/Junior-Bento%20Grid-2ec866?style=flat-square&logo=frontendmentor)](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj) ![Semantic HTML](https://img.shields.io/badge/Semantic%20HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![Accessibility](https://img.shields.io/badge/Accessibility-E34F26?style=flat-square) ![Fluid CSS](https://img.shields.io/badge/Fluid%20CSS-1572B6?style=flat-square&logo=css&logoColor=white) ![BEM](https://img.shields.io/badge/BEM-1572B6?style=flat-square)
 
 ## Overview
 
@@ -51,6 +51,7 @@ Since this is one of the most used CSS naming schemes, I've decided to learn it 
     - Flexbox
     - Grid
     - BEM - Block Element Modifier
+    - Fluid CSS using clamp()
 
 ## Author
 
